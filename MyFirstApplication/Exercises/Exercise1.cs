@@ -86,7 +86,7 @@ c. Binary */
         Console.Write(intA);
         short shortA = 3500;
         Console.WriteLine(shortA);
-        long longA = (long);
+        long longA = 123_345_456;
         Console.WriteLine(longA);
         float floatA = -19733.14895F;
         Console.WriteLine(floatA);
