@@ -132,7 +132,7 @@ internal class Lesson1
     long beta = 1_834_432L;
 
 
-    // Explicit casting is wher fractions are truncated and not rounded
+    // Explicit casting is where fractions are truncated and not rounded
     // you have to provide permission to cast from a higher type
     // to a lower type.
     public void ConvertFloatToInt()
