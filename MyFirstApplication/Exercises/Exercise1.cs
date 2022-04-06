@@ -35,7 +35,7 @@ c. Binary */
     c. From int to float */
 
     
-    public void CoversionImMethod(byte value, short value1, int value2)
+    public void ConversionImMethod(byte value, short value1, int value2)
     {
        
         int alpha = myByte;

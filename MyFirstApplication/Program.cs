@@ -18,7 +18,8 @@ by that member
 // Lesson Examples
 // HouseExample();
 // Lesson1Example();
-Lesson2Example();
+// Lesson2Example();
+
 
 
 
@@ -64,3 +65,30 @@ void MyLocalFunction()
 }
 
 // MyLocalFunction();
+
+// Exercise 1 Test
+// Exercise1Test();
+
+void Exercise1Test()
+{
+    Exercise1 myOne = new Exercise1();
+    myOne.DecimalExMethod();
+    myOne.ConversionImMethod(4, 5, 8);
+
+}
+
+// Exercise 2 Test
+// Exercise2Test();
+
+void Exercise2Test()
+{ 
+    Exercise2 mytwo = new Exercise2();
+    mytwo.ExerciseTwoDashOne(" EXERCISE two Lab ");
+    mytwo.ExerciseTwoDashTwo();
+    mytwo.ExerciseTwoDashThree();
+    Console.WriteLine(mytwo.ExerciseTwoDashFour());
+
+}
+
+
+
