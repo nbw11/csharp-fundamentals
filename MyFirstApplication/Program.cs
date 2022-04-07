@@ -6,6 +6,9 @@
 // Below statement calls a local function
 // single line comment
 
+BottlesOfBeer bottles = new BottlesOfBeer();
+// bottles.LetsSing();
+
 
 /*
  Multi-line comment
@@ -19,7 +22,7 @@ by that member
 // HouseExample();
 // Lesson1Example();
 // Lesson2Example();
-Lesson3Example();
+// Lesson3Example();
 
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
@@ -107,6 +110,23 @@ void Exercise2Test()
     Console.WriteLine(mytwo.ExerciseTwoDashFour());
 
 }
+
+// Exercise 3 test
+// Exercise3Test();
+
+void Exercise3Test()
+{
+    Exercise3 mythree = new Exercise3();
+   // mythree.ExerciseThreeDashOne(5);
+   // mythree.ExerciseThreeDashTwo();
+   // mythree.ExerciseThreeDashThree(4, 6);
+   // mythree.ExerciseThreeDashFour(true, false);
+   // mythree.ExerciseThreeDashFour(false, false);
+   // mythree.ExerciseThreeDashFour(true, true);
+   // mythree.ExerciseThreeDashFour(false, true);
+
+}
+
 
 
 
