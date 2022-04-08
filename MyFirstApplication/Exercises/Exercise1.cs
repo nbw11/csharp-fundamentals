@@ -38,9 +38,9 @@ c. Binary */
     public void ConversionImMethod(byte value, short value1, int value2)
     {
        
-        int alpha = myByte;
-        long beta = myShort;
-        float kappa = myInt;
+        int alpha = value;
+        long beta = value1;
+        float kappa = value2;
         Console.WriteLine(alpha);
         Console.WriteLine(beta);
         Console.WriteLine(kappa);
@@ -58,9 +58,9 @@ c. Binary */
     
     public void ConversionExMethod(double value3, float value4, long value5)
     {
-        long theta = (long)myDouble;
-        int zeta = (int)myFloat;
-        short omega = (short)myLong;
+        long theta = (long)value3;
+        int zeta = (int)value4;
+        short omega = (short)value5;
         Console.WriteLine(theta);
         Console.WriteLine(zeta);
         Console.WriteLine(omega);
@@ -80,7 +80,7 @@ c. Binary */
 
     public void ValueType()
     {
-        double doubleA = 123456.987;
+        double doubleA = 123_456.987;
         Console.Write(doubleA);
         int intA = -9516248;
         Console.Write(intA);
@@ -92,6 +92,5 @@ c. Binary */
         Console.WriteLine(floatA);
         
     }
-    
 
 } // end class 

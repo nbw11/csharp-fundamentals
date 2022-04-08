@@ -23,6 +23,24 @@ by that member
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
+Lesson4Example();
+
+// Lesson 4 Control Flow
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    // myLesson4.BasicIfStatement(11);
+    // myLesson4.BasicIfElseStatement(15);
+    // myLesson4.BasicIfElseChainStatement(10);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(35));
+    // myLesson4.BasicSwitchStatement(3);
+    // myLesson4.BasicWhileStatment();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    myLesson4.BasicJumpStatement();
+
+}
 
 // Lesson 3 Operators and Overflow Checking
 void Lesson3Example()
@@ -38,10 +56,10 @@ void Lesson3Example()
     // myLesson3.BasicMath();
     // myLesson3.BasicModulus(783);
     // myLesson3.BasicBooleanLogical(true, false);
-    //myLesson3.BasicCompoundExample(12, 35, 9);
+    // myLesson3.BasicCompoundExample(12, 35, 9);
     // myLesson3.BasicRelationalExample("Tom", "Tom");
     // myLesson3.MyIncrDecrExample();
-
+  
 }
 
 // Lesson2 Strings
