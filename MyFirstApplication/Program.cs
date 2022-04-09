@@ -23,7 +23,7 @@ by that member
 // Lesson1Example();
 // Lesson2Example();
 // Lesson3Example();
-Lesson4Example();
+// Lesson4Example();
 
 // Lesson 4 Control Flow
 void Lesson4Example()
@@ -38,7 +38,7 @@ void Lesson4Example()
     // myLesson4.BasicWhileStatment();
     // myLesson4.BasicDoStatement();
     // myLesson4.BasicForStatement();
-    myLesson4.BasicJumpStatement();
+    // myLesson4.BasicJumpStatement();
 
 }
 
@@ -144,7 +144,15 @@ void Exercise3Test()
    // mythree.ExerciseThreeDashFour(false, true);
 
 }
-
+// Exercise 4 Test
+Exercise4Test();
+void Exercise4Test()
+{
+    Exercise4 myfour = new Exercise4();
+    myfour.ExerciseFourDashOne("hello", "hello");
+    myfour.ExerciseFourDashTwo('E');
+    myfour.ExerciseFourDashThree();
+}
 
 
 
