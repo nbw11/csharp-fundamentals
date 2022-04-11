@@ -55,8 +55,8 @@ void Lesson5Example()
     // myLesson5.DrinkSize(33);
 
     // Logical Patterns
-    myLesson5.TemperatureGuide(48.6);
-    myLesson5.NumberChoice(3);
+    // myLesson5.TemperatureGuide(48.6);
+    // myLesson5.NumberChoice(3);
 }
 
 
@@ -187,6 +187,16 @@ void Exercise4Test()
     myfour.ExerciseFourDashOne("hello", "hello");
     myfour.ExerciseFourDashTwo('E');
     myfour.ExerciseFourDashThree();
+}
+
+// Exercise 5 Test
+Exercise5Test();
+void Exercise5Test()
+{
+    Exercise5 myfive = new Exercise5();
+    Console.WriteLine(myfive.ExerciseFiveDashOne(5,5));
+    Console.WriteLine(myfive.ExerciseFiveDashTwo('V'));
+    myfive.ExerciseFiveDashThree(32);
 }
 
 
