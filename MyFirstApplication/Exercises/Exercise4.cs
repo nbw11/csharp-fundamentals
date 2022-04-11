@@ -53,6 +53,7 @@ public void ExerciseFourDashOne(string value, string value2)
         int threes = 3;
         while(threes < 31)
         {
+            if(threes % 3 == 0)
             Console.WriteLine($"Numbers divisble by three = {threes}");
             threes += 3;
         }
