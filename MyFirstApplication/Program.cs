@@ -26,6 +26,32 @@ by that member
 // Lesson4Example();
 // Lesson5Example();
 // Lesson6Examlpes();
+Lesson7Example();
+
+void Lesson7Example()
+{
+    Location myLocation = new Location(34.5, 37.8);
+    Console.WriteLine(myLocation.Latitude);
+    Console.WriteLine(myLocation);
+
+    // ReadOnly Struct
+    Student myStudent = new Student(10, "Nick");
+    Console.WriteLine(myStudent);
+    Console.WriteLine(myStudent.StudentName);
+
+    // Record
+    Person person = new Person("Nancy", "Drew");
+    Console.WriteLine(person);
+    Console.WriteLine(person.lastName);
+
+    // Struct Record
+    Resolution res = new Resolution(1920, 1080);
+    res.CalculateRes();
+    Console.WriteLine(res);
+
+}
+
+
 
 void Lesson6Examlpes()
 {
