@@ -27,6 +27,26 @@ by that member
 // Lesson5Example();
 // Lesson6Examlpes();
 // Lesson7Example();
+Lesson8Example();
+
+void Lesson8Example()
+{
+    Lesson8 myLesson8 = new Lesson8(3);
+    // Calling Constant Directly
+    Console.WriteLine(Lesson8.DaysPerMonth);
+
+    // Calculate temperature
+    Console.WriteLine(Lesson8Static.CelsiusToFahrenheit(45.6));
+
+    // Static Methods
+    Lesson8.DayCount = 10;
+    myLesson8.CalculateHours();
+    Lesson8.CalculateDayCount();
+    Console.WriteLine($"The calculation has been done {Lesson8.DayCount} times.");
+
+    // Static Lambda
+    myLesson8.CalculateHoursV2();
+}
 
 void Lesson7Example()
 {
@@ -280,7 +300,7 @@ void Exercise6Test()
 }
 
 // Exercise 7 Test
-Exercise7Test();
+// Exercise7Test();
 
 void Exercise7Test()
 {
