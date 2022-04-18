@@ -26,7 +26,7 @@ by that member
 // Lesson4Example();
 // Lesson5Example();
 // Lesson6Examlpes();
-Lesson7Example();
+// Lesson7Example();
 
 void Lesson7Example()
 {
@@ -271,12 +271,23 @@ void Exercise5Test()
 }
 
 // Exercise 6 Test
-Exercise6Test();
+// Exercise6Test();
 void Exercise6Test()
 {
     Exercise6 mysix = new Exercise6(10, "Nike");
     Exercise6.TryOn myShoe = mysix.ExerciseSixDashThree;
     myShoe($"I tried on a {mysix.ShoeType} pair, they were size {mysix.ShoeSize}.");
+}
+
+// Exercise 7 Test
+Exercise7Test();
+
+void Exercise7Test()
+{
+    Employee myEmployee = new Employee(0, "Nick");
+    Console.WriteLine(myEmployee.Name);
+    Boat myBoat = new Boat();
+    Console.WriteLine(myBoat.MeBoat);
 }
 
 

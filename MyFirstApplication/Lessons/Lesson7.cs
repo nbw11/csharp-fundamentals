@@ -1,7 +1,7 @@
 ﻿namespace MyFirstApplication;
 
 /*
- A struct is a vlue type while a class is a reference type.
+ A struct is a value type while a class is a reference type.
 you should use a struct for small objects that need to be 
 memory conscious.
  */
