@@ -39,6 +39,7 @@ internal class Lesson8
             $"{totalHours(_days)}");
     
     }
+    
 
 } // end class 
 

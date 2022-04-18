@@ -27,7 +27,7 @@ by that member
 // Lesson5Example();
 // Lesson6Examlpes();
 // Lesson7Example();
-Lesson8Example();
+// Lesson8Example();
 
 void Lesson8Example()
 {
@@ -310,4 +310,13 @@ void Exercise7Test()
     Console.WriteLine(myBoat.MeBoat);
 }
 
+// Exercise 8 Test
+Exercise8Test();
+
+void Exercise8Test()
+{
+    Exercise8 myEight = new Exercise8();
+    myEight.ExerciseEightDashOne(3);
+    Exercise8.ExerciseEightDashTwo(12, 12); 
+}
 
