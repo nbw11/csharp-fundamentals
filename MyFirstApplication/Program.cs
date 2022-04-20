@@ -30,7 +30,7 @@ by that member
 // Lesson8Example();
 // Lesson9Example();
 // Lesson10Example();
-HouseUpdated();
+// HouseUpdated();
 
 void HouseUpdated()
 {
@@ -365,12 +365,12 @@ void Exercise7Test()
 {
     Employee myEmployee = new Employee(0, "Nick");
     Console.WriteLine(myEmployee.Name);
-    Boat myBoat = new Boat();
-    Console.WriteLine(myBoat.MeBoat);
+//    Boat myBoat = new Boat();
+//    Console.WriteLine(myBoat.MeBoat);
 }
 
 // Exercise 8 Test
-Exercise8Test();
+// Exercise8Test();
 
 void Exercise8Test()
 {
@@ -379,3 +379,24 @@ void Exercise8Test()
     Exercise8.ExerciseEightDashTwo(12, 12); 
 }
 
+// Exercise 10 Test
+Exercise10Test();
+
+void Exercise10Test()
+{
+    Horse myHorse = new Horse();
+    Console.WriteLine(myHorse.Color);
+
+    Horse myHorse2 = new Horse("Fred", 4);
+    Console.WriteLine(myHorse2.Color);
+
+    Horse myHorse3 = new Horse("Mustang", "Craigery", "Black", 6);
+    Console.WriteLine(myHorse3.Name);
+
+    Boat myBoat = new Boat();
+    Console.WriteLine(myBoat.Length);
+
+    Boat myBoat2 = new Boat("USS Boat", 10);
+    Console.WriteLine(myBoat2.Name);
+
+}

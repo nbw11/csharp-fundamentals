@@ -37,12 +37,12 @@ internal struct Employee
   it is working correctly. 
  */
 
-public record Boat()
-{
+// public record Boat()
+/* {
     internal void MeBoat()
     {
         Console.WriteLine("Boat Floats");
-    }
-}
+    } */
+
 
 
