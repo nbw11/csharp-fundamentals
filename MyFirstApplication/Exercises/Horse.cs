@@ -30,6 +30,6 @@ internal class Horse
     { }
 
     public Horse()
-        :this("Stallion", 8)
+        :this("Craigory", 8)
     { }
 }

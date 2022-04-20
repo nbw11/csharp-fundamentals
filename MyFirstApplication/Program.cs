@@ -31,7 +31,19 @@ by that member
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
+// Lesson11Example();
 
+void Lesson11Example()
+{
+    Square square = new Square();
+    double total = square.CalculateInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalculateInteriorAngle();
+    Console.WriteLine(total2);
+
+}
 void HouseUpdated()
 {
     // Calling default
@@ -399,4 +411,16 @@ void Exercise10Test()
     Boat myBoat2 = new Boat("USS Boat", 10);
     Console.WriteLine(myBoat2.Name);
 
+}
+
+//Exercise 11 test
+Exercise11Test();
+
+void Exercise11Test()
+{
+    Pony myPony = new Pony("short","craigory","brown", 3, "short");
+    Console.WriteLine(myPony.Name);
+    Yacht myYacht = new Yacht("yacht", "uss yachty", 10, 20, "cabin");
+    Console.WriteLine(myYacht.Name);
+    Console.WriteLine(myYacht);
 }
