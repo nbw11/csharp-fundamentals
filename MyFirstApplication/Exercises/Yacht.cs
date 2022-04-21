@@ -27,5 +27,10 @@ internal class Yacht : Boat
         : this("yacht", "uss yachty")
     { }
 
+    public override void BoatSails(string _type)
+    {
+        Console.WriteLine($"My {_type} sails away!");
+    }
+
 }
 

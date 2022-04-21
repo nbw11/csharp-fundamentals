@@ -32,4 +32,20 @@ internal class Horse
     public Horse()
         :this("Craigory", 8)
     { }
+
+    public virtual void HorseGallop()
+    {
+        Console.WriteLine("The horse gallops");
+    }
+    /* 
+      Exercise 12-1 
+     in your Horse class, add teh cirtual keyowrd to your method created in Lesson 10.
+    Create a second version of the same method and add a parameter. Include a Console 
+    WriteLine method in the new method that uses the parameter. This parameter needs to
+    be based on one of your properties. 
+    */
+    public virtual void HorseGallop(string breed)
+    {
+        Console.WriteLine($"The {breed} horse gallops");
+    }
 }

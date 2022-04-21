@@ -433,13 +433,13 @@ void Exercise10Test()
 }
 
 // Exercise 11 test
-// Exercise11Test();
+ Exercise1112Test();
 
-void Exercise11Test()
+void Exercise1112Test()
 {
     Pony myPony = new Pony("short","craigory","brown", 3, "short");
     Console.WriteLine(myPony.Name);
     Yacht myYacht = new Yacht("yacht", "uss yachty", 10, 20, "cabin");
     Console.WriteLine(myYacht.Name);
-    
+    myPony.HorseGallop("pony");
 }

@@ -52,4 +52,13 @@ internal class Boat
         : this("Stallion", 10)
     { }
 
+    public virtual void BoatSails()
+    {
+        Console.WriteLine("The boat sails!");
+    }
+
+    public virtual void BoatSails(string _type)
+    {
+        Console.WriteLine($"The {_type} sails!");
+    }
 }

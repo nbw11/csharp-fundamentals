@@ -40,6 +40,18 @@ internal class Pony : Horse
      * four legged
      * gallops
     */
+
+
+    /*
+      Exercise 12-2 
+    In your child class of HOrse, using the override keyword create a method that has 
+    the same name as the cirtual method from Horse. Add a Console WriteLine that provides
+    a different message from Horse.
+    */
+    public override void HorseGallop(string breed)
+    {
+        Console.WriteLine($"The {breed} Gallops!");
+    }
 }
 
 
