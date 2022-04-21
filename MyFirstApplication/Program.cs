@@ -32,6 +32,25 @@ by that member
 // Lesson10Example();
 // HouseUpdated();
 // Lesson11Example();
+// Lesson12Example();
+CondoExample();
+
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+void Lesson12Example()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    myFruit.EatFruit(3);
+
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+}
 
 void Lesson11Example()
 {
@@ -392,7 +411,7 @@ void Exercise8Test()
 }
 
 // Exercise 10 Test
-Exercise10Test();
+// Exercise10Test();
 
 void Exercise10Test()
 {
@@ -413,8 +432,8 @@ void Exercise10Test()
 
 }
 
-//Exercise 11 test
-Exercise11Test();
+// Exercise 11 test
+// Exercise11Test();
 
 void Exercise11Test()
 {
@@ -422,5 +441,5 @@ void Exercise11Test()
     Console.WriteLine(myPony.Name);
     Yacht myYacht = new Yacht("yacht", "uss yachty", 10, 20, "cabin");
     Console.WriteLine(myYacht.Name);
-    Console.WriteLine(myYacht);
+    
 }

@@ -1,5 +1,5 @@
 ﻿namespace MyFirstApplication;
-// Exercise 11 
+// Exercise 11 1/2
 
 /*
   Create a child class based on your Horse object. Include one child attribute as an auto property.
