@@ -37,7 +37,7 @@ by that member
 // Lesson13Example();
 // Lesson14Example();
 // Lesson15Example();
-Lesson16Example();
+// Lesson16Example();
 
 void Lesson16Example()
 {
@@ -505,7 +505,7 @@ void Exercise14Test()
 }
 
 // Exercise 15
-Exercise15Test();
+// Exercise15Test();
 
 void Exercise15Test()
 {
@@ -516,4 +516,14 @@ void Exercise15Test()
     Console.WriteLine($" My favorite = {val1}{val2}");
 }
 
+// Exercise 16 Test
+Exercise16Test();
+
+void Exercise16Test()
+{
+    Exercise16 myExercise16 = new Exercise16();
+    myExercise16.Exercise16DashOne();
+    myExercise16.Exercise16DashTwo();
+
+}
   
