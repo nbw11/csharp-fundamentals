@@ -36,7 +36,7 @@ by that member
 // CondoExample();
 // Lesson13Example();
 // Lesson14Example();
-Lesson15Example();
+// Lesson15Example();
 
 void Lesson15Example()
 {
@@ -494,6 +494,18 @@ void Exercise14Test()
     Exercise14 myExcercise14 = new Exercise14();
     Console.WriteLine();
     myExcercise14.TeamArray();
+}
+
+// Exercise 15
+Exercise15Test();
+
+void Exercise15Test()
+{
+    Exercise15 myExercise15 = new Exercise15();
+    string movie = myExercise15.Exercise15Enum(FavoriteMovies.Friday);
+    Console.WriteLine(movie);
+    (int val1, string val2) = myExercise15.Exercise15Enum2(FavoriteMovies.Friday);
+    Console.WriteLine($" My favorite = {val1}{val2}");
 }
 
   
