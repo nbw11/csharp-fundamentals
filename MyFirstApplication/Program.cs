@@ -34,7 +34,7 @@ by that member
 // Lesson11Example();
 // Lesson12Example();
 // CondoExample();
-Lesson13Example();
+// Lesson13Example();
 
 void Lesson13Example()
 {
@@ -46,7 +46,7 @@ void Lesson13Example()
 
     //These are from the interface
     int total3 = myLesson13.ConvertMilesToYards();
-    Console.WriteLine($"Converting miles to yars{total3}"); 
+    Console.WriteLine($"Converting miles to yards {total3}"); 
 }
 
 
@@ -458,4 +458,12 @@ void Exercise1112Test()
     Yacht myYacht = new Yacht("yacht", "uss yachty", 10, 20, "cabin");
     Console.WriteLine(myYacht.Name);
     myPony.HorseGallop("pony");
+}
+
+// Exercise 13 
+Exercise13Test();
+
+void Exercise13Test()
+{
+    WaterBirds myWaterBird = new WaterBirdsDerived(5);
 }
