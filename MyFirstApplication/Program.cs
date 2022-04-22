@@ -35,8 +35,7 @@ by that member
 // Lesson12Example();
 // CondoExample();
 // Lesson13Example();
-
-Lesson14Example();
+// Lesson14Example();
 
 void Lesson14Example()
 {
@@ -474,5 +473,15 @@ void Exercise1112Test()
 
 // Exercise 13 
 // Exercise13Test();
+
+// Exercise 14
+Exercise14Test();
+
+void Exercise14Test()
+{
+    Exercise14 myExcercise14 = new Exercise14();
+    Console.WriteLine();
+    myExcercise14.TeamArray();
+}
 
   
