@@ -45,7 +45,7 @@ public abstract class WaterBirds : IMovement
 
 public class WaterBirdsDerived : WaterBirds
 {
-    public override int Speed { get; init; }
+    public override int Speed { get; init; } = 20;
 
     public override string Exercise13Dash1()
     {
@@ -55,9 +55,9 @@ public class WaterBirdsDerived : WaterBirds
 
     public override string Exercise13Dash2()
     {
-        Console.WriteLine($"Waterbirds fly {Speed}");
         throw new NotImplementedException();
     }
+
 
     protected WaterBirdsDerived(int value)
    : base(value) { }

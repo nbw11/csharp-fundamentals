@@ -36,6 +36,18 @@ by that member
 // CondoExample();
 // Lesson13Example();
 
+Lesson14Example();
+
+void Lesson14Example()
+{
+    Lesson14 myLesson14 = new Lesson14();
+    // myLesson14.SingleIntArray();
+    // myLesson14.SingleIntArray();
+    myLesson14.MultiIntArray();
+    myLesson14.MultiStringArray();
+    myLesson14.JaggedArraySample();
+}
+
 void Lesson13Example()
 {
     Lesson13Derived myLesson13 = new Lesson13Derived(3);
@@ -461,9 +473,6 @@ void Exercise1112Test()
 }
 
 // Exercise 13 
-Exercise13Test();
+// Exercise13Test();
 
-void Exercise13Test()
-{
-    WaterBirds myWaterBird = new WaterBirdsDerived(5);
-}
+  
